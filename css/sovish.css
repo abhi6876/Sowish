@@ -1,0 +1,277 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 35%;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7) url(../image/BG1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.nav-list li {
+    list-style: none;
+    padding: 30px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.nav-list li a:hover {
+    color: grey;
+    cursor: pointer;
+
+}
+
+.rightnav {
+    width: 50%;
+    text-align: right;
+    justify-content: center;
+
+}
+
+#Search {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: whitesmoke;
+}
+
+.btn-sm {
+    font-size: 12px;
+    padding: 3px 12px;
+    margin: 7px 5px;
+    border: 1px grey;
+    border-radius: 5px;
+    background-color: whitesmoke;
+
+}
+
+
+
+
+
+/* section1 about comany begins */
+
+.section1 {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7) url(../image/BG1.jpg);
+    background-size: cover;
+    ;
+    background-blend-mode: darken;
+    font-size: 75px;
+    color: ghostwhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.conatinersection1{
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.aboutcompany {
+    width: auto;
+    height: 75vh;
+    text-align: left;
+    margin-left: 49px;
+    padding-top: 70px;
+
+}    
+
+.aboutcompanytextlarge{
+    padding-top: 100px;
+    color: whitesmoke;
+    margin-left: 30px;
+    height: 40vh;
+    
+}
+.rightsection1{
+    width: auto;
+
+}
+.aboutcompanydesription{
+    color: whitesmoke;
+    font-size: 15px;
+    
+    margin-top: 40px;
+    
+}
+
+/* section1 about comany begins */
+
+/* section2 company ki badai begins */
+.section2 {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7) url(../image/BG2.jpg);
+    background-size: cover;
+    ;
+    background-blend-mode: darken;
+    font-size: 75px;
+    color: ghostwhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.conatinersection2{
+    size:90%;
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.leftsection2 {
+    width: 50%;
+    height: 80%;
+    margin-left: 49px;
+
+   
+}
+
+.leftsection2toptext {
+    margin-top: 5%;
+    font-size: 15px;
+    color: grey;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.leftsection2middletext{
+    padding-top: 65px;
+    font-size: 50px;
+    color: whitesmoke;
+    height: 17vh;
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.leftsection2 a {
+    color: grey;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.leftsection2 a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+.rightsection2 {
+    width: 50%;
+}
+
+.rightsection2toptext{
+    font-size: 35px;
+    
+}
+
+.rightsection2middletext{
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+
+
+
+
+/* section2 company ki badai ends */
+
+
+
+
+
+
+
+
+
+
+.section3 {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7) url(../image/BG2.jpg);
+    background-size: cover;
+    ;
+    background-blend-mode: darken;
+    font-size: 75px;
+    color: ghostwhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.section3container {
+    width: auto;
+    height: auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.leftsection3 {
+    height: 80vh;
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+}
+
+.middlesection3 {
+    height: 80vh;
+    width: 30%;
+    float: left;
+}
+
+.rightsection3 {
+    height: 80vh;
+    width: 30%;
+    float: left;
+}
+
+.section4 {
+    height: 100vh;
+    background-color: aqua;
+}
+
+.footer {
+    height: 10vh;
+}
+
+
